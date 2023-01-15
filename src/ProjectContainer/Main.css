@@ -1,18 +1,22 @@
 @font-face {
     font-family: 'thickfont';
-    src: local('WHOOPASS'), url(../../fonts/Poppins-BoldItalic.ttf) format('truetype');
+    src: url(../../fonts/Poppins-BoldItalic.ttf) format('truetype');
 }
 .Screen {    
     font-family: serif;
     background-image: url("https://images.pexels.com/photos/974316/pexels-photo-974316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
+.navtext{
+    color: black;
+    font-family: fantasy;
+}
 
 .h1 {
     font-weight: bold;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    background: -webkit-linear-gradient(#ffffff, #dfded6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    background: linear-gradient(#3f3131, #0c0b0b);
+    background-clip: text;
+    -webkit-fill-color: transparent;
 }
 #video-background {
     position: fixed;
@@ -40,3 +44,8 @@
     color:white;
     font-family: thickfont;
 }
+.teams{
+    background-color: whitesmoke;
+    padding: 2rem;
+}
+
