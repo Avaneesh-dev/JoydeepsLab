@@ -30,9 +30,8 @@ function HomeComponent() {
   });
   return (
     <div>
-    <div className="row text-center home">
-      <p className='lead'>In the Laboratory of Plant Molecular Biology & Transgenics at the Indian Institue of Technology Kharagpur, we aim to develop resilient crop plants by understanding the molecular mechanism of plant stress adaptation. Along with trangenic technology, functional genomics study is also an integral part of our research. In the lab we also explore the multidisciplinary research dimensions involving use of Aritificial Intelligence and Machine Learning in crop science.</p>
-        
+    <div className="row justify-text-evenly home">
+      <p className='lead'>In the Laboratory of Plant Molecular Biology & Transgenics at the Indian Institute of Technology Kharagpur, we aim to develop resilient crop plants by understanding the molecular mechanism of plant stress adaptation. Along with trangenic technology, functional genomics study is also an integral part of our research. In the lab we also explore the multidisciplinary research dimensions involving use of Aritificial Intelligence and Machine Learning in crop science.</p>        
     </div>
     <div className="row text-center home">
       <Carousel previous={previousButton} next={nextButton}

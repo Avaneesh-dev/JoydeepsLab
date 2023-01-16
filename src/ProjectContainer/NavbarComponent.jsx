@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem,NavLink, Button, NavbarText } from 'reactstrap'
+import { Nav, Navbar, NavbarBrand, NavbarToggler, Collapse, NavItem,NavLink} from 'reactstrap'
 import "./Main.css"
 import kgplogo from './kgplogowhite.png'
 
@@ -14,19 +14,16 @@ function NavbarComponent(props) {
         <Collapse isOpen={!collapsed} navbar>
           <Nav navbar className='col-md-9 text-center'>
           <NavItem className="col-md-2">
-              <NavLink href="home">Home</NavLink>             
+              <NavLink href="home">HOME</NavLink>             
             </NavItem>
             <NavItem className="col-md-2">
-            <NavLink href="research">Research</NavLink>              
+            <NavLink href="research">RESEARCH</NavLink>              
             </NavItem>            
             <NavItem className="col-md-2">
-            <NavLink href="team">Members</NavLink>              
+            <NavLink href="team">MEMBERS</NavLink>              
             </NavItem>
             <NavItem className="col-md-2">
-            <NavLink href="contact">Contact Us</NavLink>              
-            </NavItem>
-            <NavItem className="col-md-2">
-            <NavLink href="careers">Careers</NavLink>              
+            <NavLink href="contact">CAREERS & CONTACT</NavLink>              
             </NavItem>
             <NavItem className="col-md-2">
             <NavLink href="alumni">Alumni</NavLink>              
