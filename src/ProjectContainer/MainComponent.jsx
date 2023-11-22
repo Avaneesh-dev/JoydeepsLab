@@ -1,4 +1,5 @@
 import React from 'react'
+import TextLine from './TextLine'
 import NavbarComponent from './NavbarComponent'
 import HomeComponent from './HomeComponent'
 import ResearchComponent from './ResearchComponent'
@@ -10,14 +11,15 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 function MainComponent() {
   return (
     <BrowserRouter>
-      <NavbarComponent/>
-        <Routes>
-                <Route index element={<HomeComponent />} />
-                <Route exact path="/home" element={<HomeComponent />} />
-                <Route exact path="/research" element={<ResearchComponent />} />
-                <Route exact path="/contact" element={<ContactComponent />} />
-                <Route exact path="/team" element={<TeamComponent />} />           
-        </Routes>
+    <TextLine />
+      <NavbarComponent />
+      <Routes>
+        <Route index element={<HomeComponent />} />
+        <Route exact path="/home" element={<HomeComponent />} />
+        <Route exact path="/research" element={<ResearchComponent />} />
+        <Route exact path="/contact" element={<ContactComponent />} />
+        <Route exact path="/team" element={<TeamComponent />} />
+      </Routes>
       <Footer />
     </BrowserRouter>
   )
