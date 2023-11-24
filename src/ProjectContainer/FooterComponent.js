@@ -1,18 +1,20 @@
 import React from 'react';
 import { NavLink } from 'reactstrap';
+import "./Main.css"
 
 function Footer(props) {
     return(
     <div className="footer">
-        <div className="container">
+        <div className='footer-spikes'></div>
+        <div className="container mt-5">
             <div className="row justify-content-center">             
                 <div className="col-4 col-sm-2 text-center">
                     <h5>Links</h5>
                     <ul className="list-unstyled">
-                        <li><NavLink href='/home'>Home</NavLink></li>
-                        <li><NavLink href='/research'>Research</NavLink> </li>
-                        <li><NavLink href='/team'>Members</NavLink></li>
-                        <li><NavLink href='/contact'>Contact Us</NavLink></li>
+                        <li><NavLink href='/home' className='text-white'>Home</NavLink></li>
+                        <li><NavLink href='/research' className='text-white'>Research</NavLink> </li>
+                        <li><NavLink href='/team' className='text-white'>Members</NavLink></li>
+                        <li><NavLink href='/contact' className='text-white'>Contact Us</NavLink></li>
                     </ul>
                 </div>
                 <div className="col-7 col-sm-5">

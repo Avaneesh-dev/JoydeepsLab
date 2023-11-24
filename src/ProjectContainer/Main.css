@@ -29,6 +29,29 @@
   background-image: linear-gradient(135deg, #2c3e50 25%, transparent 25%), linear-gradient(225deg, #2c3e50 25%, transparent 25%);
   background-position: 0 0;
 }
+.footer{
+    background-color: #022031;
+    color: antiquewhite;
+}
+.footer-spikes {
+  position: relative;
+  background: #ffffff;
+  height: 35px;
+}
+
+.footer-spikes::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  left: -0%;
+  top: 100%;
+  z-index: 10;
+  display: block;
+  height: 50px;
+  background-size: 50px 100%;
+  background-image: linear-gradient(135deg, #ffffff 25%, transparent 25%), linear-gradient(225deg, #ffffff 25%, transparent 25%);
+  background-position: 0 0;
+}
 
 .skewed {
     position: absolute;
@@ -73,9 +96,7 @@
     background-color: #cfda99;
     font-weight: bolder;
   }
-.footer{
-    background-color: #effabb;
-}
+
 .img{
     min-height: 300px;
     max-height:700px;
