@@ -4,6 +4,7 @@ import NavbarComponent from './NavbarComponent'
 import HomeComponent from './HomeComponent'
 import ResearchComponent from './ResearchComponent'
 import TeamComponent from './TeamComponent'
+import AlumniComponent from './AlumniComponent'
 import ContactComponent from './ContactComponent'
 import Footer from './FooterComponent'
 
@@ -19,6 +20,7 @@ function MainComponent() {
         <Route exact path="/research" element={<ResearchComponent />} />
         <Route exact path="/contact" element={<ContactComponent />} />
         <Route exact path="/team" element={<TeamComponent />} />
+        <Route exact path="/alumni" element={<AlumniComponent />} />
       </Routes>
       <Footer />
     </BrowserRouter>

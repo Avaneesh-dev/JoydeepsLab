@@ -6,6 +6,30 @@ import { Carousel, CarouselControl, CarouselItem, CarouselIndicators } from 'rea
 function HomeComponent() {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
+  // const items1 = [{ caption: 'lentil work', src: 'https://images.pexels.com/photos/1112080/pexels-photo-1112080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', altText: 'Slide one' },
+  // {
+  //   caption: 'Certificate of JRF', src: "https://images.pexels.com/photos/974316/pexels-photo-974316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", altText: 'Slide two'
+  // }];
+  // const itemLength1 = items1.length - 1;
+  // const previousButton1 = () => {
+  //   if (animating) return;
+
+  //   const nextIndex = activeIndex === 0 ? itemLength : activeIndex - 1;
+  //   setActiveIndex(nextIndex);
+  // }
+  // const nextButton1 = () => {
+  //   if (animating) return;
+  //   const nextIndex = activeIndex === itemLength ? 0 : activeIndex + 1;
+  //   setActiveIndex(nextIndex);
+  // }
+  // const carouselItemData1 = items.map((item) => {
+  //   return (
+  //     <CarouselItem key={item.src} onExited={() => setAnimating(false)}
+  //       onExiting={() => setAnimating(true)}>
+  //       <img className="img img-fluid" src={item.src} alt={item.altText} />
+  //     </CarouselItem>
+  //   );
+  // });
   const items = [{ caption: 'Certificate of SRF', src: 'https://images.pexels.com/photos/1112080/pexels-photo-1112080.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1', altText: 'Slide one' },
   {
     caption: 'Certificate of JRF', src: "https://images.pexels.com/photos/974316/pexels-photo-974316.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1", altText: 'Slide two'
@@ -139,7 +163,7 @@ Understanding the Citrus Tristeza Virus Resistance Mechanisms in Citrus Species 
             </Carousel>
           </div>
           <div className="col-md-9 text-start">
-            <p className='h2 fw-bold'>Collaboration: The Key to Transformative Reasearch</p>
+            <p className='h2 fw-bold'>Collaboration: The Key to Transformative Research</p>
             {/* <p className='h6 text-muted'>Associate Professor<br />Department of Agricultural and Food Engineering,<br /> Indian Institute of Technology Kharagpur</p> */}
             <p className='lead d-none d-sm-block justified-content-center'>We take pride in collaborating with government research institutions and industries. Our lab is currently conducting research in collaboration with DBT & SERB along with State Universities.</p>
           </div>

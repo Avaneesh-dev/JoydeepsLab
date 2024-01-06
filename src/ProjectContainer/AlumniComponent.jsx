@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Main.css"
 import Joydeep from './joydeep.jpeg'
-function TeamComponent() {
+function AlumniComponent() {
   const phdMembers = [{name:"Debarati Nandi", research:"Agricultural Biotechnology", description: "not uploaded", src:'debarati.jpg'},{name:"Hena Gain", research:"Agricultural Biotechnology", description: "not uploaded", src:'hena.jpg'},{name:"Sreya Ghosal", research:"Plant Molecular Biology", description: "not uploaded", src:'sreya.jpg'},{name:"Ankita Chakraborty", research:"Stress Physiology in Plants", description: "not uploaded", src:'ankita.png'},{name:"Shivani", research:"Stress Physiology in Plants", description: "not uploaded", src:'shivani.jpg'}];
   const pgMembers=[{name:"Avaneesh Srivastava",research:"Machine Learning in Crop Science", src:"avaneesh_2.jpg"},{name:"Pallavi Agrawal",research:"Machine Learning in Crop Science", src:'pallavi.jpg'},{name:"Mansi Gupta", research:"Machine Learning in Crop Science",src:'mansi.jpeg'},{name:"Swarnali Bharracharyya",research:"Machine Learning in Crop Science", src:'swarnali.jpg'},{name:"Akhila Yallappa Olekar",research:"Machine Learning in Crop Science", src:'akhila.jpg'}]
 
@@ -35,7 +35,7 @@ function TeamComponent() {
   return (
     <div className="my-10 teams">
       <div className="header">
-        <header className="display-5 p-5">MEMBERS</header>
+        <header className="display-5 p-5">ALUMNI</header>
       </div>
       <div className='row'>
         <p className='h2 fw-bold'>DOCTORAL FELLOWS</p>
@@ -53,7 +53,7 @@ function TeamComponent() {
           <p className='h6 text-muted'>Area of Research:<br />Agricultural Biotechnology</p>
         </div>
         <div className='col-6'>
-          <img className="img-fluid rounded img-thumbnail" src='./sofia.jpg' />
+          <img className="img-fluid rounded img-thumbnail" src={Joydeep}/>
         </div>
       </div>      
       </div>
@@ -61,4 +61,4 @@ function TeamComponent() {
   )
 }
 
-export default TeamComponent
+export default AlumniComponent
